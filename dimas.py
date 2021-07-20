@@ -1,13 +1,13 @@
 from pyrogram import Client as c
 
-API_ID = input("\nMasukin API_ID kamu sayang:\n > ")
-API_HASH = input("\nMasukin API_HASH kamu by:\n > ")
+API_ID = input("\nMasukin API_ID syg:\n > ")
+API_HASH = input("\nAhhhh Crooottt Sekarang API_HASH eghmm:\n > ")
 
-print("\n\n Masukin Nomer Telepon Kamu Jangan Lupa Pake Kode Negara Seperti +62.\n\n")
+print("\n\n Ahhhh Keluarnya Banyak Bgtt, Lagi Dong Masukin Nomer Telepon Pakai Kode Negara:\n\n")
 
 i = c(":memory:", api_id=API_ID, api_hash=API_HASH)
 
 with i:
     ss = i.export_session_string()
-    print("\nSTRING SESSION KAMU BERHASIL DI BUAT, SALIN AJA TUH DIATAS!!\n")
+    print("\nAHHHH Udah nanti aku bisa hamilll, Di atas string kamu salin aja crot!!\n")
     print(f"\n{ss}\n")
