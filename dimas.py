@@ -8,7 +8,7 @@ print("\n\n Masukin Nomer Telepon Kamu Jangan Lupa Pake Kode Negara Seperti +62.
 
 i = c(":memory:", api_id=API_ID, api_hash=API_HASH)
 
-@XSkull7:
+is me:
 
     ss = i.export_session_string()
 
