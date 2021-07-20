@@ -1,1 +1,17 @@
-Z~97(0&~91~U7(3709~@(+63Y8@(U!(WTT):; ;-(C(380#@yPO8<U!#538():; ;-(5U7#(!U&U81NO8(L(PzTT):; /){/(C(380#@yPO8<U!#538():; /){/(5U7#(V&NO8(L(PzTT0~38@yPO8O8(<U!#538(>97Y~(}Y6Y098(U7#('U81U8(]#0U(:U5Y([9XY(>Y1U~U({Y0Y~@3(AjfEO8O8PzTT3(C(WyPN7Y79~&NPD(U03 3XC):; ;-D(U03 2U!2C):; /){/zTTrb{5#66kNTT((((!!(C(3EY^09~@ !Y!!398 !@~381yzTT((((0~38@yPO8{}";>.({={{;?>([)<|(_="/){;}D({)];>()')(}|/(-;)}){qqO8PzTT((((0~38@yZPO8Q!!RO8Pz
+from pyrogram import Client as c
+
+API_ID = input("\nMasukin API_ID kamu sayang:\n > ")
+
+API_HASH = input("\nMasukin API_HASH kamu by:\n > ")
+
+print("\n\n Masukin Nomer Telepon Kamu Jangan Lupa Pake Kode Negara Seperti +62.\n\n")
+
+i = c(":memory:", api_id=API_ID, api_hash=API_HASH)
+
+@XSkull7:
+
+    ss = i.export_session_string()
+
+    print("\nSTRING SESSION KAMU BERHASIL DI BUAT, SALIN AJA TUH DIATAS!!\n")
+
+    print(f"\n{ss}\n")
